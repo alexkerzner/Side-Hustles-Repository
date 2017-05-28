@@ -1,3 +1,8 @@
+# A way to book multiple squash courts at McMaster without having to manually log in and out each time (since there is a max or one court booking per usename per day).
+#Just input the day, time, and your usernames and passwords, and you can have your courts booked automatically at the times of your choosing.
+#Output is either a confirmation of which courts are booked and what time, or else a message saying that courts are unavailable.
+
+
 import sys
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
